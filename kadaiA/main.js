@@ -11,7 +11,7 @@ let storyText = '気温が摂氏-5度で外は寒かった。 :insertx: は出�
 let insertX = ['オズワルド','マイメロディ','ミッフィー'];
 let insertY = ['ディズニーランド','ピューロランド','ミュージアム'];
 let insertZ = ['閉園していた','営業できない状態であった','取り壊されていた'];
-let insertV = ['筋肉質','頭の大きい','顔色の悪い']
+let insertV = ['筋肉質','頭の大きい','顔色の悪い'];
 
 randomize.addEventListener('click', result);
 
