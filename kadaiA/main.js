@@ -21,11 +21,13 @@ function result() {
   let xItem = randomValueFromArray(insertX);
   let yItem = randomValueFromArray(insertY);
   let zItem = randomValueFromArray(insertZ);
+  let vItem = randomValueFromArray(insertV);
 
   newStory = newStory.replace(':insertx:',xItem);
   newStory = newStory.replace(':insertx:',xItem);
   newStory = newStory.replace(':inserty:',yItem);
   newStory = newStory.replace(':insertz:',zItem);
+  newStory = newStory.replace(':insertv:',vItem);
 
   if(customName.value !== '') {
     const name = customName.value;
