@@ -15,7 +15,7 @@
     }
 
     label {
-      font-weight: bold;
+      font-weight: bold;  
     }
 
     div {
@@ -39,14 +39,15 @@
 
   <body>
     <div>
-      <label for="customname">カスタムネーム:</label>
+      <label for="customname">Enter custom name:</label>
       <input id="customname" type="text" placeholder="">
     </div>
     <div>
-      <label for="日本語">JPN</label><input id="日本語" type="radio" name="日本語" value="日本語" checked>
+      <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+      <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
     </div>
     <div>
-      <button class="randomize">ランダムストーリー</button>
+      <button class="randomize">Generate random story</button>
     </div>
     <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
     <p class="story"></p>
