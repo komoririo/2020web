@@ -18,12 +18,12 @@
       text-align: center;
       line-height: 100px;
     }
-    .win {
+    .大吉 {
       background: pink;
       border-radius: 50%;
       transform: rotate(360deg);
     }
-    .lose {
+    .凶 {
       transform: scale(0.9);
     }
   </style>
@@ -42,11 +42,11 @@
       
       div.addEventListener('click', () => {
         if (i === winner) {
-          div.textContent = 'Win!';
-          div.classList.add('win');
+          div.textContent = '大吉';
+          div.classList.add('大吉');
         } else {
-          div.textContent = 'Lose!';
-          div.classList.add('lose');
+          div.textContent = '凶';
+          div.classList.add('凶');
         }
       });
 
