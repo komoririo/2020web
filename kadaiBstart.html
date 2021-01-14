@@ -56,7 +56,7 @@
         } else if (i > winner) {
           div.textContent = '小吉';
           div.classList.add('小吉');
-        } else {
+        } else if (i === 0 ) {
           div.textContent = '凶';
           div.classList.add('凶');
         }
