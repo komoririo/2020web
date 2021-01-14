@@ -23,6 +23,9 @@
       border-radius: 50%;
       transform: rotate(360deg);
     }
+    .中吉 {
+      transform: scale(0.9);
+    }
     .凶 {
       transform: scale(0.5);
     }
@@ -44,6 +47,9 @@
         if (i === winner) {
           div.textContent = '大吉';
           div.classList.add('大吉');
+        } else if (i < winner) {
+          div.textContent = '中吉';
+          div.classList.add('中吉');
         } else {
           div.textContent = '凶';
           div.classList.add('凶');
