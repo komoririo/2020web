@@ -47,16 +47,16 @@
       div.classList.add('box');
       
       div.addEventListener('click', () => {
-        if (i===winner) {
+        if (i === winner) {
           div.textContent = '大吉';
           div.classList.add('大吉');
-        } else if (i<winner) {
+        } else if (i < winner) {
           div.textContent = '中吉';
           div.classList.add('中吉');
-        } else if (i>winner) {
+        } else if (i > winner) {
           div.textContent = '小吉';
           div.classList.add('小吉');
-        } else if (3i/4<=winner) {
+        } else  {
           div.textContent = '凶';
           div.classList.add('凶');
         }
