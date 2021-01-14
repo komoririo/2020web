@@ -50,10 +50,10 @@
         if (i === winner) {
           div.textContent = '大吉';
           div.classList.add('大吉');
-        } else if (i < winner && winner != 5 && winner != 7) {
+        } else if (i < winner) {
           div.textContent = '中吉';
           div.classList.add('中吉');
-        } else if (i > winner && winner != 5 && winner != 7) {
+        } else if (i > winner) {
           div.textContent = '小吉';
           div.classList.add('小吉');
         } else if (winner == 5 || winner == 7) {
