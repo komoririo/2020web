@@ -26,8 +26,11 @@
     .中吉 {
       transform: scale(0.9);
     }
+    .小吉 {
+      transform: scale(0.8);
+    }
     .凶 {
-      transform: scale(0.5);
+      transform: scale(0.7);
     }
   </style>
 </head>
@@ -50,6 +53,9 @@
         } else if (i < winner) {
           div.textContent = '中吉';
           div.classList.add('中吉');
+        } else if (i > winner) {
+          div.textContent = '小吉';
+          div.classList.add('小吉');
         } else {
           div.textContent = '凶';
           div.classList.add('凶');
