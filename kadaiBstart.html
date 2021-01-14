@@ -42,10 +42,16 @@
       
       div.addEventListener('click', () => {
         if (i === winner) {
-          div.textContent = 'Win!';
+          div.textContent = '大吉';
           div.classList.add('win');
         } else {
-          div.textContent = 'Lose!';
+          div.textContent = '中吉';
+          div.classList.add('lose');
+        } else {
+          div.textContent = '小吉';
+          div.classList.add('lose');
+        } else {
+          div.textContent = '凶';
           div.classList.add('lose');
         }
       });
