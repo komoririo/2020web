@@ -50,13 +50,13 @@
         if (i === winner) {  //8
           div.textContent = '大吉';
           div.classList.add('大吉');
-        } else if (i < winner && i > winner-2) {  //i<8 && i>6 7
+        } else if (i < winner && i > winner-4) {  //i<3 && i>-1 210
           div.textContent = '中吉';
           div.classList.add('中吉');
-        } else if (i > winner && i < winner+2) {  //i>3 && i<5 4
+        } else if (i > winner && i < winner+4) {  //i>3 && i<7 456
           div.textContent = '小吉';
           div.classList.add('小吉');
-        } else if (i <= winner-2 || i >= winner+2) {  //i<=1 || i>=5 019
+        } else if (i <= winner-4 || i >= winner+4) {  //i<=4 || i>=12 4321 78910
           div.textContent = '凶';
           div.classList.add('凶');
         }
